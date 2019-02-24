@@ -12,7 +12,6 @@
         <activity android:name=".Activity.Splash">
 
         </activity>
-        <activity android:name=".Activity.MainActivity"></activity>
         <activity android:name=".Activity.WorkOut">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
