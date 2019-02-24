@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#695F5F"
+    android:orientation="vertical"
+    tools:context=".Activity.Trianer_reqest">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:gravity="left"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/ic_keyboard_arrow_left_black_24dp"
+                android:layout_marginBottom="-15dp"
+                android:layout_marginLeft="30dp"
+
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Trianer Reqes"
+            android:textColor="#FFFF"
+            android:layout_marginTop="-20dp"
+            android:textSize="22dp"
+            android:textStyle="normal" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/image_profel"
+            android:layout_width="198dp"
+            android:layout_height="154dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:gravity="center_vertical"
+            android:src="@drawable/traner" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+        <TextView
+            android:id="@+id/name_of_trainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ahmed El-Komy"
+            android:textColor="#D11616"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Captain"
+            android:textColor="#FFFF"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="70dp"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/new_shap"
+            android:text="Accept"
+            android:textColor="#0B870B"
+            android:textSize="18dp"
+
+            android:layout_marginBottom="25dp"
+            />
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/new_shap2"
+            android:text="Accept"
+            android:textColor="#EC0505"
+            android:textSize="18dp"
+            />
+
+
+    </LinearLayout>
+</LinearLayout>
