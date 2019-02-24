@@ -1,4 +1,4 @@
-package com.myaquar.inventure.gymapp.Adbters;
+package com.myaquar.inventure.gymapp.Adapters;
 
 import android.content.Context;
 import android.support.annotation.NonNull;

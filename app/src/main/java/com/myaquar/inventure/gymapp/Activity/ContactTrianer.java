@@ -4,7 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ListView;
 
-import com.myaquar.inventure.gymapp.Adbters.Adabter_list;
+import com.myaquar.inventure.gymapp.Adapters.Adabter_list;
 import com.myaquar.inventure.gymapp.Models.Model_of_item;
 import com.myaquar.inventure.gymapp.R;
 
