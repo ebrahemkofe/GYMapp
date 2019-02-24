@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#202020"
+    tools:context=".Activity.Login">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="2"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_height="0dp">
+        <ImageView
+            android:layout_width="175dp"
+            android:src="@drawable/logo"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="TRANSFORMERS"
+            android:textSize="21sp"
+            android:textColor="#ffff"
+            android:textStyle="bold"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="FITNESS CENTER"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#cd0c04"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_height="0dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Welcome!"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#cd0c04"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="0.7"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical"
+        android:layout_height="0dp">
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:id="@+id/EmailEdit"
+            android:hint="Your Email"
+            android:background="@drawable/shape"
+            android:textColorHighlight="#ffff"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_height="0dp">
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/PassEdit"
+            android:layout_width="match_parent"
+            android:hint="Your Password"
+            android:textColorHint="#fff"
+            android:background="@drawable/shape"
+            android:gravity="center"
+            android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_height="0dp">
+        <Button
+            android:id="@+id/LoginBtn"
+            android:layout_width="wrap_content"
+            android:text="Login"
+            android:textColor="#ffff"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:background="@drawable/shape"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+
+</LinearLayout>
