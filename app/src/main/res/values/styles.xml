@@ -8,4 +8,13 @@
         <item name="colorAccent">#E40707</item>
     </style>
 
+    <style name="AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="CustomNoActionBar" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/background</item>
+        <item name="colorPrimaryDark">@color/gradientBack</item>
+        <item name="colorAccent">@color/red</item>
+    </style>
 </resources>

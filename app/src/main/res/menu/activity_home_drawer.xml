@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Home"
+            android:icon="@drawable/home3"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_Profile"
+            android:icon="@drawable/profile1"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_QR_Code"
+            android:icon="@drawable/qr"
+            android:title="QR Code" />
+        <item
+            android:id="@+id/nav_Login"
+            android:icon="@drawable/login"
+            android:title="Login" />
+
+        <item
+            android:id="@+id/nav_Workout"
+            android:icon="@drawable/dumble"
+            android:title="Workout" />
+        <item
+            android:id="@+id/nav_trainer_request"
+            android:icon="@drawable/request1"
+            android:title="Trainer Request" />
+
+        <item
+            android:id="@+id/nav_about_us"
+            android:icon="@drawable/aboutus"
+            android:title="About Us" />
+        <item
+            android:id="@+id/nav_contact_trainer"
+            android:icon="@drawable/capitan_list"
+            android:title="Contact Trainer" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/login"
+            android:title="Logout" />
+    </group>
+
+</menu>
